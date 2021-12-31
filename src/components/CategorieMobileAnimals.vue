@@ -48,6 +48,7 @@ img {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #603e85;
 }
 
 h3 {
