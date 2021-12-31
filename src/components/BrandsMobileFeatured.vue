@@ -60,6 +60,10 @@ export default {
   padding: 0px;
 }
 
+section {
+  margin-right: 15px;
+}
+
 section .container-featured-brands {
   justify-content: center;
   align-items: center;
@@ -68,6 +72,7 @@ section .container-featured-brands {
 h2 {
     text-align: center;
     margin-top: 20px;
+    color: #603e85;
 }
 
 .container-featured-brands {
