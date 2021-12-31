@@ -53,6 +53,8 @@
   <ProductMobileLaika v-if="mobileNav" />
   <ProductsLaika v-if="!mobileNav" />
   <FooterMobile v-if="mobileNav" />
+  <WapIcon />
+  <FIcon v-if="mobileNav" />
   <Footer v-if="!mobileNav" />
 </template>
 
@@ -71,6 +73,8 @@ import CategorieMobileAnimals from "./components/CategorieMobileAnimals.vue";
 import BrandsMobileFeatured from "./components/BrandsMobileFeatured.vue";
 import ProductMobileLaika from "./components/ProductMobileLaika.vue";
 import FooterMobile from "./components/FooterMobile.vue";
+import FIcon from "./components/FIcon.vue";
+import WapIcon from "./components/WapIcon.vue";
 
 export default {
   name: "App",
@@ -98,6 +102,8 @@ export default {
     ProductsLaika,
     BrandsMobileFeatured,
     FeaturedBrands,
+    WapIcon,
+    FIcon,
     FooterMobile,
     Footer,
   },

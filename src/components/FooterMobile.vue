@@ -23,8 +23,10 @@
 </template>
 
 <script>
+
+
 export default {
-    name: "FooterMobile"
+    name: "FooterMobile",
 }
 </script>
 
